@@ -1,0 +1,48 @@
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-accumdir			F:/sphinx/train/bwaccumdir/train_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-cepdir				F:/sphinx/train/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				F:/sphinx/train/etc/train_train.fileids
+-dictfn				
+-example	no		no
+-fdictfn			
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-lda				
+-ldadim		0		0
+-lsnfn				
+-meanfn				F:\sphinx\train\model_parameters\train.ci_cont_flatinitial\globalmean
+-moddeffn			
+-npart				1
+-nskip				0
+-part				1
+-runlen				0
+-scaleseg	no		no
+-segdir				
+-segext		v8_seg		v8_seg
+-svspec				
+-ts2cbfn			
+-varnorm	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: init_gau.c(145): Computing 1x1x1 variance estimates
+INFO: s3gau_io.c(169): Read F:\sphinx\train\model_parameters\train.ci_cont_flatinitial\globalmean [1x1x1 array]
+INFO: cmn.c(133): CMN: 32.35 14.74 -18.36 -4.06  0.78 -0.32  3.77  4.73  8.99  4.59  1.61 -11.88 -6.96 
+INFO: cmn.c(133): CMN: 30.12 13.38 -6.59 10.71 -1.00  1.64  4.03  3.63  0.67  0.54 -4.46 -2.36 -3.40 
+INFO: cmn.c(133): CMN: 27.06 15.57 -0.95  7.17 -7.76 -0.05 11.78  0.37  1.39 -1.12 -8.62 -6.06 -1.11 
+INFO: cmn.c(133): CMN: 32.95  2.64 -2.61 23.33  5.86  1.51  4.39  1.99  3.79 -3.87 -9.68 -0.18 -7.89 
+INFO: cmn.c(133): CMN: 34.38 12.22 -17.81 13.63  0.35 -8.21  0.40  6.31 11.21  0.24 -4.37 -10.95 -1.31 
+INFO: cmn.c(133): CMN: 27.26 17.29 -3.78 -0.54 -7.48  2.23  7.94  6.94 -1.05 -4.51  1.07 -3.08 -0.49 
+INFO: cmn.c(133): CMN: 33.72 17.17 -16.34  1.92  8.42  0.69 10.23 11.40 -1.23  0.73  2.14 -11.61 -5.06 
+INFO: cmn.c(133): CMN: 30.75 12.51 -3.67 -5.81 -4.11 -1.43  4.96  5.62  0.73  0.66 -3.82  0.42  0.08 
+INFO: cmn.c(133): CMN: 35.90 12.79 -20.89 -2.67  5.01  2.85  7.47  5.90  2.21  3.37 -1.76 -4.67 -7.44 
+INFO: s3gau_io.c(485): Wrote F:/sphinx/train/bwaccumdir/train_buff_1/gauden_counts with vars (2pass) [1x1x1 vector arrays]
+Sat Apr 13 01:05:12 2019

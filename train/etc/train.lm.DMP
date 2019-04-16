@@ -1,0 +1,61 @@
+Language model created by QuickLM on Fri Apr 12 13:05:14 EDT 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=18
+ngram 3=9
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.7324 BA -0.2218
+-1.7324 BARY -0.2218
+-1.7324 BOOSN -0.2218
+-1.7324 CHISN -0.2218
+-1.7324 HAI -0.2218
+-1.7324 MOOJT -0.2218
+-1.7324 NAWM -0.2218
+-1.7324 SASU -0.2218
+-1.7324 TASM -0.2218
+
+\2-grams:
+-1.2553 <s> BA 0.0000
+-1.2553 <s> BARY 0.0000
+-1.2553 <s> BOOSN 0.0000
+-1.2553 <s> CHISN 0.0000
+-1.2553 <s> HAI 0.0000
+-1.2553 <s> MOOJT 0.0000
+-1.2553 <s> NAWM 0.0000
+-1.2553 <s> SASU 0.0000
+-1.2553 <s> TASM 0.0000
+-0.3010 BA </s> -0.3010
+-0.3010 BARY </s> -0.3010
+-0.3010 BOOSN </s> -0.3010
+-0.3010 CHISN </s> -0.3010
+-0.3010 HAI </s> -0.3010
+-0.3010 MOOJT </s> -0.3010
+-0.3010 NAWM </s> -0.3010
+-0.3010 SASU </s> -0.3010
+-0.3010 TASM </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BA </s>
+-0.3010 <s> BARY </s>
+-0.3010 <s> BOOSN </s>
+-0.3010 <s> CHISN </s>
+-0.3010 <s> HAI </s>
+-0.3010 <s> MOOJT </s>
+-0.3010 <s> NAWM </s>
+-0.3010 <s> SASU </s>
+-0.3010 <s> TASM </s>
+
+\end\
